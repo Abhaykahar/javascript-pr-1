@@ -1,0 +1,25 @@
+<script type="text/javascript">
+
+        // 11. Write a JavaScript program to create basic calculator using ledder if else.
+
+    var a = parseInt(prompt("Enter  A :-"));
+    var b = parseInt(prompt("Enter  B :-"));
+    
+    var ch = (prompt("Enter a choice :-  +,-,*,/"));
+
+    if(ch == '+'){
+        document.write(`<h1>Ans :- ${a+b}</h1>`);
+    }
+    else if(ch == '-'){
+        document.write(`<h1>Ans :- ${a-b}</h1>`);
+    }
+    else if(ch == '*'){
+        document.write(`<h1>Ans :- ${a*b}</h1>`);
+    }
+    else if(ch == '/'){
+        document.write(`<h1>Ans :- ${a/b}</h1>`);
+    }
+    else{
+        document.write("<h1>Inavalid</h1>")
+    }
+</script>
